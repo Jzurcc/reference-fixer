@@ -1,6 +1,6 @@
 # RefFixer
 
-A CLI tool that performs **bidirectional citation auditing** for academic research papers. It checks whether every entry in your **reference list** is cited somewhere in your paper, and conversely, whether every **in-text citation** in the paper actually has a corresponding reference — all in a single run. While originally designed for RRL chapters, it works on any section of a research paper.
+A CLI tool that checks whether every entry in your **reference list** is cited somewhere in your paper, and conversely, whether every **in-text citation** in the paper actually has a corresponding reference — all in a single run. While originally designed for RRL chapters, it works on any section of a research paper.
 
 ## Installation
 
