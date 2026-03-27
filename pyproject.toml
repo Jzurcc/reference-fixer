@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reference-fixer"
+version = "1.0.0"
+description = "CLI tool to check if reference authors are cited in an RRL discussion"
+requires-python = ">=3.9"
+dependencies = [
+    "PyMuPDF>=1.23.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+reference-fixer = "reference_fixer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
