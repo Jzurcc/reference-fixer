@@ -1,0 +1,2 @@
+[console_scripts]
+reference-fixer = reference_fixer.cli:main
