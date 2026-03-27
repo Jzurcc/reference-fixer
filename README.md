@@ -1,6 +1,6 @@
 # Reference Fixer
 
-A CLI tool that checks whether authors from your **reference list** are actually cited in your **RRL discussion**. It extracts author surnames from a references PDF, scans a discussion PDF for mentions, and reports which references are used and how many times.
+A CLI tool that checks whether authors from your **reference list** are actually cited in your **research paper**. It extracts author surnames from a references PDF, scans a discussion PDF for mentions, and reports which references are used and how many times.
 
 ## Installation
 
